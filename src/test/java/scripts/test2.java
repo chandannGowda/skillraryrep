@@ -25,7 +25,7 @@ public class test2 extends BaseClass {
 		driverutilies.switchTabs(driver);
 		
 		Testingpage tp=new Testingpage(driver);
-		driverutilies.draganddrop(driver, tp.getSeleniumtraining(), tp.getCart());
+		driverutilies.draganddrop(driver,tp.getSeleniumtraining(), tp.getCart());
 		Point loc = tp.getFacebook().getLocation();
 		int x=loc.getX();
 		int y=loc.getY();
